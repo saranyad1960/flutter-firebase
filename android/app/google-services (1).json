@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1039709439829",
+    "project_id": "kj-web-app-1",
+    "storage_bucket": "kj-web-app-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039709439829:android:4378255d5ef2a4bb4991dc",
+        "android_client_info": {
+          "package_name": "com.example.kj_flutter_app_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmAq45kvFZ9z-x6ZqONVuKMIjZK9G_t4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
