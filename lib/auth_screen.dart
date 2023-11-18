@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
-import 'package:kj_flutter_app_2/privacy_policy.dart';
+import 'package:kj_flutter_app_2/dashboard.dart';
 
 class AuthScreen extends StatefulWidget {
   @override
@@ -21,7 +21,7 @@ class _AuthScreenState extends State<AuthScreen> {
       );
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => PrivacyPolicy()),
+        MaterialPageRoute(builder: (context) => MyApp1()),
       );
     } catch (e) {
       print(e);
@@ -36,7 +36,7 @@ class _AuthScreenState extends State<AuthScreen> {
       );
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => PrivacyPolicy()),
+        MaterialPageRoute(builder: (context) => MyApp1()),
       );
     } catch (e) {
       print("Error: $e");
